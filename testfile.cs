@@ -1,3 +1,12 @@
-C#
+using System;
 
-dont know yet what to code
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World! welp");    
+    }
+  }
+}
