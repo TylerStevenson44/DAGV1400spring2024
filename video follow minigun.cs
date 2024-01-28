@@ -7,7 +7,9 @@ public class Program
 	public void Main()
 	{
 		miniGun = new Weapon();
+		miniGun.ammoCount++;
 		Console.WriteLine(miniGun.weaponName + " has ammo count " +  miniGun.ammoCount);
+
 	}
 }
 
