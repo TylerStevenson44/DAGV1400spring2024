@@ -25,3 +25,4 @@ public class Food {
     public int Treats = 0;
     public int foodCans = 6;
 }
+		
