@@ -13,7 +13,7 @@ public class Program
         catSnack.Treats += 56;
         yardVisitors.Cats = (catSnack.foodCans + catSnack.Treats / 5);
         Console.WriteLine(yardVisitors.catName + " puts out " + catSnack.Treats + " treats outside with " + catSnack.foodCans + " cans of wet food.");
-		Console.WriteLine("Every 5 treats brings another visit.");
+		Console.WriteLine("Every food can and every 5 treats brings another visit.");
 		Console.WriteLine("So there are " + yardVisitors.Cats + " visitors.");
     }
 }
