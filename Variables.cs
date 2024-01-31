@@ -33,9 +33,13 @@ public class Visitors {
     }
     public void Toys (int food, int treat) {
 		var number = food + treat / 5 ;
-        if (number > 14) {
+        if (number > 49) {
+            Console.WriteLine("50 CATS!");
+        }
+        else if (number > 14) {
             Console.WriteLine("Theres more than 15 cats! The toys have been brought out.");
-        } else {
+        }
+        else {
             Console.WriteLine("Not enough cats to bother with the toys.");
 		}
 	}
