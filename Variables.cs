@@ -27,19 +27,24 @@ public class Program
     }
 }
 public class Visitors {
-    public void Totalvisits (int food, int treat) {
+    public void Totalvisits (int food, int treat) 
+    {
 		var number = food + treat / 5 ;
 		Console.WriteLine("This many cats have visited! " + number);
     }
-    public void Toys (int food, int treat) {
+    public void Toys (int food, int treat) 
+    {
 		var number = food + treat / 5 ;
-        if (number > 49) {
+        if (number > 49) 
+        {
             Console.WriteLine("50 CATS!");
         }
-        else if (number > 14) {
+        else if (number > 14) 
+        {
             Console.WriteLine("Theres more than 15 cats! The toys have been brought out.");
         }
-        else {
+        else 
+        {
             Console.WriteLine("Not enough cats to bother with the toys.");
 		}
 	}
@@ -47,7 +52,8 @@ public class Visitors {
     public string catName = "Whiskers";
     
 }
-public class Food {
+public class Food 
+{
     public int Treats = 0;
     public int foodCans = 1;
 }
