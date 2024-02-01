@@ -23,9 +23,7 @@ public class Program
         Yard.Totalvisits(8, 38);
 		Yard.Toys(8, 38);
 		Yard.Totalvisits(23, 27);
-		Yard.Toys(23, 27);
-		Yard.Totalvisits(38, 73);
-		Yard.Toys(38, 73);
+		Yard.Toys(23, 27);	
     }
 }
 public class Visitors {
