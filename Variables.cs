@@ -24,17 +24,20 @@ public class Program
 		Yard.Toys(8, 38);
 		Yard.Totalvisits(23, 27);
 		Yard.Toys(23, 27);	
-    }
+    }// ^ integers used for each time the equation is excecuted
 }
 public class Visitors {
+    //this class hold all the variables for the equations.
     public void Totalvisits (int food, int treat) 
     {
 		var number = food + treat / 5 ;
+        // the equation that references Yard.Totalvisits
 		Console.WriteLine("This many cats have visited! " + number);
     }
     public void Toys (int food, int treat) 
     {
 		var number = food + treat / 5 ;
+        // this one refs Yard.Toys
         if (number > 49) 
         {
             Console.WriteLine("50 CATS!");
@@ -46,13 +49,14 @@ public class Visitors {
         else 
         {
             Console.WriteLine("Not enough cats to bother with the toys.");
-		}
+		}// else if decides which text to output with Console.WriteLine after each equation
 	}
     public int Cats;
     public string catName = "Whiskers";
     
 }
 public class Food 
+// this class isn't used anymore.
 {
     public int Treats = 0;
     public int foodCans = 1;
